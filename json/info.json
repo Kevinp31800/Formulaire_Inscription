@@ -1,53 +1,30 @@
 {
-	"nom"
-	:"Wayne",
-	"prenom"
-	:"Bruce",
-	"mail"
-	:"wayneenterprise@gmail.com",
-	"password"
-	:"Bat45",
-	"anniversaire"
-	:"03/07/1983",
-	"phone"
-	:"06-20-14-66-88",
-	"hobbys"
-	:"Sauver gotham"
-},
-
-{
-	"nom"
-	:"Quinn",
-	"prenom"
-	:"Harley",
-	"mail"
-	:"harleyquinn@gmail.com",
-	"password"
-	:"Puddin63",
-	"anniversaire"
-	:"11/09/1985",
-	"phone"
-	:"06-45-18-78-58",
-	"hobbys"
-	:"Utiliser mon marteau"
-},
-
-{
-	"nom"
-	:"Monsieur",
-	"prenom"
-	:"Joker",
-	"mail"
-	:"monsieurj@gmail.com",
-	"password"
-	:"Batou4u",
-	"anniversaire"
-	:"01/01/1980",
-	"phone"
-	:"06-10-56-96-35",
-	"hobbys"
-	:"Embeter Batou et malmener Harley"
+	"character 1": {
+		"nom": "Wayne",
+		"prenom": "Bruce",
+		"email": "wayneenterprise@gmail.com",
+		"pass": "Bat45",
+		"anniversaire": "03/07/1983",
+		"phone": "06-20-14-66-88",
+		"msg": "Sauver gotham"
+	},
+	"character 2": {
+		"nom": "Quinn",
+		"prenom": "Harley",
+		"email": "harleyquinn@gmail.com",
+		"pass": "Puddin63",
+		"anniversaire": "11/09/1985",
+		"phone": "06-45-18-78-58",
+		"msg": "Utiliser mon marteau"
+	},
+	"character 3": {
+		"nom": "Monsieur",
+		"prenom": "Joker",
+		"email": "monsieurj@gmail.com",
+		"pass"
+		: "Batou4u",
+		"anniversaire": "01/01/1980",
+		"phone": "06-10-56-96-35",
+		"msg": "Embeter Batou et malmener Harley"
+	}
 }
-
-
-

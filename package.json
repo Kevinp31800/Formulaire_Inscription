@@ -1,0 +1,23 @@
+{
+  "name": "formulaire_inscription",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevinp31800/Formulaire_Inscription.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kevinp31800/Formulaire_Inscription/issues"
+  },
+  "homepage": "https://github.com/Kevinp31800/Formulaire_Inscription#readme"
+}
