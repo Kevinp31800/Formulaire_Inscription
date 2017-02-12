@@ -15,37 +15,46 @@
 			</fieldset>
 		</p>
 		<p>
-			<label for="n1">Nom<abbr title="Ce champ est obligatoie">*</abbr></label>
-			<input type="text" id="n1" name="nom">
+			<label for="n1">Nom<abbr title="Ce champ est obligatoire">*</abbr></label>
+			<input type="text" id="name" name="nom">
 		</p>
 		<p>
-			<label for="n2">Prénom<abbr title="Ce champ est obligatoie">*</abbr></label>
-			<input type="text" id="n2" name="prenom">
-		</p>
-
-		<p>
-			Date de naissance:<input type="date" name="anniversaire">
-
+			<label for="n2">Prénom<abbr title="Ce champ est obligatoire">*</abbr></label>
+			<input type="text" id="first_name" name="prenom">
 		</p>
 
 		<p>
-			Numero de téléphone:<input type="tel" name="phone" />
+			<label for="n3">Identifiant<abbr title="Ce champ est un champ obligatoire">*</abbr></label>
+			<input type="text" id="id" name="Id">
 
 		</p>
 
 		<p>
-			Url de votre site:<input type="url" />
+			<label for="n4">Date de naissance:<abbr title="Ce champ est obligatoire">*</abbr></label>
+			<input type="date" id="birth" name="anniversaire">
 
 		</p>
 
 		<p>
-			<label for="n4">Ville</label>
-			<input type="text" id="n4" name="ville">
+			<label for="n5">Numero de téléphone:<abbr title="Ce champ est obligatoire">*</abbr></label>
+			<input type="tel" id="tel" name="phone">
+
+		</p>
+
+		<p>
+			<label for="n6">Url de votre site:</label>
+			<input type="url" id="url" name="url">
+
+		</p>
+
+		<p>
+			<label for="n7">Ville</label>
+			<input type="text" id="ville" name="ville">
 		</p>
 
 		<p>
 			<label for="t1">Quel est votre couleur préféré?</label>
-			<input type="color" id="t1" name="couleur" list="l1" required
+			<input type="color" id="color" name="couleur" list="l1" required
 			pattern="[Bb]leu|[Nn]oir|[Bb]lanc|[Rr]ouge|[Vv]ert|[Oo]range|[Rr]ose|[Vv]iolet|[Bb]louge">
 			<datalist id="l1">
 				<option>Bleu</option>
@@ -61,26 +70,26 @@
 		</p>
 		<p>
 			<label for="t2">Votre adresse e-mail? (Valide)<abbr title="Ce champ est obligatoire">*</abbr></label>
-			<input type="email" id="t2" name="email">
+			<input type="email" id="mail" name="email">
 		</p>
 
 		<p>
 			<label for="pass">Votre mot de passe :<abbr title="Ce champ est obligatoire">*</abbr></label>
-			<input type="password" maxlength="8" name="pass" id="pass" />
+			<input type="password" name="pass" id="pass" />
 
 		</p>
 
 		<p>
 			<label for="t3">Quels sont vos hobbys?(max 200 caractères)</label>
-			<textarea id="t3" name="msg" maxlength="200" rows="5"></textarea>
+			<textarea id="hobbys" name="msg" maxlength="200" rows="5"></textarea>
 		</p>
 		<p>
-			<input type="submit" name="envoi" value="Envoyer">
+			<input type="submit" id="submit" name="envoi" value="Envoyer">
 		</p>
 	</form>
-
-	<script type="text/javascript" src = "node_module/jquery" ></script>
+	<div id="app"></div>
+	<script type="text/javascript" src = "node_modules/jquery/dist/jquery.js" ></script>
 	<script type="text/javascript" src = "js/script.js"></script>
-</body>	
+</body>
 </body>
 </html>

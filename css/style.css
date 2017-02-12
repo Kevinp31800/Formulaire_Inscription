@@ -3,5 +3,14 @@ p{
   align-self: center;
   justify-content: space-between;
   width: 500px;
+
 }
 
+body{
+  background: linear-gradient(to bottom, black, white);
+
+}
+
+fieldset{
+  color: white;
+}
